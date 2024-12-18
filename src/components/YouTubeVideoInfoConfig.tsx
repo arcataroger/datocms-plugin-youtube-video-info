@@ -3,6 +3,7 @@ import {Canvas, Form, SelectField} from 'datocms-react-ui';
 import {useEffect, useMemo, useState} from 'react';
 
 export type Option = { label: string | React.ReactNode, value: string }
+
 export type PluginParams = {
     selectedField: Field | null;
 }
